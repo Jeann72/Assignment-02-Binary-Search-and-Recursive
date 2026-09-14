@@ -2,8 +2,11 @@
 The difference between iterative and recursive.
 
  the recurrence T(n) = T(n/2) + O(1) and connect it to O(log n).
+ 
  +T(n) = T(n/2) (guess cuts what remains of range in half)
+ 
  + O(1) (comparison at each step)
+ + 
  + O(log n)( after log2 n halves the size is 1 =  O(log n))
  
 
